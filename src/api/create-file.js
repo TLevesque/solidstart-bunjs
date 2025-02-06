@@ -3,7 +3,7 @@ export default async function createFile() {
   try {    
     await Bun.write(
         `./newfile.txt`,
-        "Hello Bun.js"
+        "Hello Bun Server Function"
     );
   } catch (error) {
     console.error("Error:", error);
